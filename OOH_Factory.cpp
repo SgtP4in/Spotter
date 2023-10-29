@@ -2,8 +2,12 @@
 
 int OOH_Factory::run()
 {
+	//Clean the data object and filters
+	//TODO
+
 	//Shooter data
-	//ToDo
+	oddsOfHittingData = shooterDataFilter.Filter_ShooterData(oddsOfHittingData);
+	std::system("pause"); //TESTING DELETE!!!
 
 	//Weapon data
 	//ToDo

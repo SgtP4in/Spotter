@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="OOH_Data.h" />
     <ClInclude Include="OOH_Factory.h" />
+    <ClInclude Include="OOH_Filter_ShooterData.h" />
     <ClInclude Include="Table_Data.h" />
     <ClInclude Include="User_Interface.h" />
   </ItemGroup>

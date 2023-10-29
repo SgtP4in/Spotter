@@ -6,6 +6,7 @@
 */
 class OOH_Data
 {
+public:
 	//Shooter data
 	double sal; //Skill Accuracy Level
 	
@@ -14,7 +15,8 @@ class OOH_Data
 	double ba; //Base Accuracy for the current range
 
 	//Range
-	double rangeAlm;
+	double range; //current range in hexes
+	double rangeAlm; //range alm
 
 	//Situation and Stance Modifiers
 	std::vector<bool> ss_m;

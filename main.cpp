@@ -10,6 +10,9 @@
 * > Needs to be converted from a Visual Studio 2019 Solution project structure to CMake
 * > The User interface is VERY tightly coupled to windows, and should be made platform agnostic
 * > The user interface class was made with many shortcuts, and needs to be adjusted
+* > QoL features that need to be added:
+*	> Ability to return to the main menue at any time
+*	> The ability to "back up" to prior filters without starting over the calculation
 * > The following Features should be added next:
 *	> Automatic Weapon Odds of Hitting Support
 *	> Explosive Weapon Odds of Hitting Support
@@ -20,7 +23,12 @@
 #include "User_Interface.h"
 #include <stdlib.h>
 
+#include "OOH_Factory.h"
+
 const double VERSION = 0.1;
+
+//Activity Factory Objects
+OOH_Factory oddsOfHittingActivity;
 
 int main() {
 	//Initialize user interface
@@ -41,18 +49,18 @@ int main() {
 		answer = NULL;
 		answer = std::system("choice /c 1q /n");
 
+		std::system("cls"); //clear the console
+
 		switch (answer)
 		{
 		case 1:
-			//TODO begin an Odds of hitting calculation
+			oddsOfHittingActivity.run();
 			break;
 
 		default:
 			answer = 666;
 			break;
 		}
-
-		std::system("cls"); //clear the console
 
 	} while (answer != 666);
 

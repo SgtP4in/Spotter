@@ -47,5 +47,8 @@
     <ClInclude Include="OOH_Factory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OOH_Filter_ShooterData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
