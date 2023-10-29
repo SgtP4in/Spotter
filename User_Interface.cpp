@@ -60,7 +60,7 @@ std::vector<bool> User_Interface::FilterSelection(std::vector<std::string> optio
 	returnData = FilterSelection_r(options, returnData);
 
 	//Refesh the terminal
-	std::system("cls");
+	//std::system("cls");
 	return returnData;
 
 }

@@ -6,17 +6,13 @@ int OOH_Factory::run()
 	//TODO
 
 	//Shooter data
-	oddsOfHittingData = shooterDataFilter.Filter_ShooterData(oddsOfHittingData);
-	std::system("pause"); //TESTING DELETE!!!
-
 	//Weapon data
-	//ToDo
-
 	//Range
-	//ToDo
+	oddsOfHittingData = shooterDataFilter.Filter_ShooterData(oddsOfHittingData);
 
 	//Situation and Stance Modifiers
-	//ToDo
+	oddsOfHittingData = situationDataFilter.Filter_SituationData(oddsOfHittingData);
+	std::system("pause"); //TESTING DELETE!!!
 
 	//Visibility Modifiers
 	//ToDo

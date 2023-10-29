@@ -8,40 +8,40 @@ class OOH_Data
 {
 public:
 	//Shooter data
-	double sal; //Skill Accuracy Level
+	int sal; //Skill Accuracy Level
 	
 	//Weapon data
-	double atm; //Aim Time Mod
-	double ba; //Base Accuracy for the current range
+	int atm; //Aim Time Mod
+	int ba; //Base Accuracy for the current range
 
 	//Range
-	double range; //current range in hexes
-	double rangeAlm; //range alm
+	int range; //current range in hexes
+	int rangeAlm; //range ALMs
 
 	//Situation and Stance Modifiers
-	std::vector<bool> ss_m;
-	double ssmAlm;
+	std::vector<bool> ss_m; //Situational Stance Modifiers
+	int ssmAlm; //Situational Stance ALMs
 
 	//Visibility Modifiers
 	std::vector<bool> v_m;
-	double vmAlm;
+	int vmAlm;
 
 	//Movement Modifiers
 	std::vector<bool> move_m;
-	double moveAlm;
+	int moveAlm;
 
 	//Standard Target Size Modifiers
 	std::vector<bool> sts_m;
-	double stsAlm;
+	int stsAlm;
 
 	//Target Size Modifier
 	std::vector<bool> ts_m;
-	double tsAlm;
+	int tsAlm;
 
 	//Odds of Hitting
-	double eal; //Effective Accuracy Level
-	double singleShotOOH; //Single Shot Odds of Hitting
-	double burstElevation; //Burst Elevation
+	int eal; //Effective Accuracy Level
+	int singleShotOOH; //Single Shot Odds of Hitting
+	int burstElevation; //Burst Elevation
 
 };
 

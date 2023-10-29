@@ -4,8 +4,8 @@
 #include <utility>
 #include "OOH_Data.h"
 #include "User_Interface.h"
-#include "OOH_Filter_ShooterData.h"
 
+//Propogates the Shooter, Weapon, and range data sections of the OOH_Data
 class OOH_Filter_ShooterData
 {
 public:
