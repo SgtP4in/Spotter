@@ -142,16 +142,25 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OOH_Data.cpp" />
     <ClCompile Include="OOH_Factory.cpp" />
+    <ClCompile Include="OOH_Filter_MoveM.cpp" />
     <ClCompile Include="OOH_Filter_ShooterData.cpp" />
     <ClCompile Include="OOH_Filter_SituationMods.cpp" />
+    <ClCompile Include="OOH_Filter_STSmods.cpp" />
+    <ClCompile Include="OOH_Filter_TargetSizeMods.cpp" />
+    <ClCompile Include="OOH_Filter_VisualMods.cpp" />
     <ClCompile Include="Table_Data.cpp" />
     <ClCompile Include="User_Interface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OOH_Data.h" />
     <ClInclude Include="OOH_Factory.h" />
+    <ClInclude Include="OOH_Filter_MoveM.h" />
     <ClInclude Include="OOH_Filter_ShooterData.h" />
     <ClInclude Include="OOH_Filter_SituationMods.h" />
+    <ClInclude Include="OOH_Filter_STSmods.h" />
+    <ClInclude Include="OOH_Filter_TargetSizeMods.h" />
+    <ClInclude Include="OOH_Filter_VisualMods.h" />
+    <ClInclude Include="tableEntry.h" />
     <ClInclude Include="Table_Data.h" />
     <ClInclude Include="User_Interface.h" />
   </ItemGroup>

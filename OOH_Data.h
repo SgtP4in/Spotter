@@ -27,21 +27,20 @@ public:
 	int vmAlm;
 
 	//Movement Modifiers
-	std::vector<bool> move_m;
+	double move_speedHPI;
 	int moveAlm;
 
 	//Standard Target Size Modifiers
+	//Target Size Modifier
 	std::vector<bool> sts_m;
 	int stsAlm;
-
-	//Target Size Modifier
-	std::vector<bool> ts_m;
-	int tsAlm;
+	int stsAutoElevAlm;
 
 	//Odds of Hitting
 	int eal; //Effective Accuracy Level
+	int burst_eal; //Effective Accuracy Level
 	int singleShotOOH; //Single Shot Odds of Hitting
-	int burstElevation; //Burst Elevation
+	int burstElevationOOH; //Burst Elevation
 
 };
 

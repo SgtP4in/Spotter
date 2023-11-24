@@ -2,7 +2,7 @@
 * Spotter, the unofficial Pheonix Command Companion Calculator
 * Version 0.1
 * Supported Features:
-* > Odds of Hitting Tables, 4A-4G
+* > Odds of Hitting Tables, 4A-4G, does mot support burst/automatic fire content
 */
 
 /*
@@ -24,6 +24,8 @@
 #include <stdlib.h>
 
 #include "OOH_Factory.h"
+
+#include "Table_Data.h"//TEST DELETE!!!!
 
 const double VERSION = 0.1;
 

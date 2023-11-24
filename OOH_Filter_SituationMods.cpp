@@ -14,7 +14,7 @@ OOH_Data OOH_Filter_SituationMods::Filter_SituationData(OOH_Data data)
 {
     std::system("cls");
 
-    OOH_Data returnVal;
+    OOH_Data returnVal = data;
     int answer;
     int workingALM = 0;
     std::string dataSummary;

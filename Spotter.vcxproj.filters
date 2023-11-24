@@ -36,6 +36,18 @@
     <ClCompile Include="OOH_Filter_SituationMods.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OOH_Filter_VisualMods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOH_Filter_STSmods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOH_Filter_MoveM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOH_Filter_TargetSizeMods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="User_Interface.h">
@@ -54,6 +66,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OOH_Filter_SituationMods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOH_Filter_VisualMods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOH_Filter_STSmods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tableEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOH_Filter_MoveM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOH_Filter_TargetSizeMods.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
